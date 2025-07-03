@@ -51,13 +51,13 @@ public class Main
         }
         System.out.println();
     }
-	public static void main(String[] args) {
-		int[] arr = {6,3,9,5,2,8};
-		System.out.println("Before MergeSort");
-		printArr(arr);
-		System.out.println("After MergeSort");
-		mergeSort(arr, 0,arr.length-1);
-		printArr(arr);
+   public static void main(String[] args) {
+	int[] arr = {6,3,9,5,2,8};
+	System.out.println("Before MergeSort");
+	printArr(arr);
+	System.out.println("After MergeSort");
+	mergeSort(arr, 0,arr.length-1);
+	printArr(arr);
 	}
 }
 // tc = O(nlogn)
