@@ -30,7 +30,7 @@ public class LinkedList
     
     public void addLast(int data){
         // step 1 create a new Node
-        Node newNode = new Node();
+        Node newNode = new Node(data);
         
         if(head == null){
             head = tail = newNode;
@@ -45,7 +45,7 @@ public class LinkedList
 	public static void main(String[] args) {
 		LinkedList ll = new LinkedList();
 		ll.addFirst(1);
-		ll.addFirts(2);
+		ll.addFirst(2);
 		ll.addLast(3);
 		ll.addLast(4);
 		
