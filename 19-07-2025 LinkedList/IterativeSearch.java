@@ -148,9 +148,7 @@ public class LinkedList
 		ll.print();
 		System.out.println("LL size : " + ll.size);
 		System.out.println(ll.itrSearch(3));
-		System.out.println(ll.recSearch(10));
-		ll.reverse();
-		ll.print();
+	
 		
 	}
 }
