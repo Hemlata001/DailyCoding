@@ -1,5 +1,5 @@
 import java.util.*;
-public class Stack_PushAtBottom
+public class Stack_ReverseString
 {
     public static String reverseString(String str){
         Stack<Character> s = new Stack<>();
