@@ -49,7 +49,7 @@ public class Main
             
             // step 1 - swap first & last
             int temp = arr.get(0);
-            arr.set(0,arr.size()-1);
+            arr.set(0,arr.get(arr.size()-1));
             arr.set(arr.size()-1,temp);
             
             //step 2 - delete last
@@ -59,5 +59,7 @@ public class Main
             heapify(0);
             return data;
         }
-    }
+        public boolean isEmpty(){
+            return arr.size() == 0;    
+        }
 }
